@@ -1,28 +1,77 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <navbar />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Navbar
   }
 }
 </script>
 
 <style>
+/* Import Fonts */
+@charset "UTF-8";
+
+@font-face {
+  font-family: ProximaNovaregular;
+  src: url("./assets/font/MARK\ SIMONSON\ -\ PROXIMA\ NOVA\ REGULAR.OTF")
+    format("opentype");
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("./assets/font/MARK\ SIMONSON\ -\ PROXIMA\ NOVA\ LIGHT.OTF")
+    format("opentype");
+}
+
+@font-face {
+  font-family: ProximaNovaBold;
+  font-weight: bold;
+  src: url("./assets/font/MARK\ SIMONSON\ -\ PROXIMA\ NOVA\ BOLD.OTF") format("opentype");
+}
+
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a:hover {
+  cursor: pointer;
+}
+body {
+  font-family: "ProximaNovaregular", Arial, Geneva, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Our  Main Container */
+  #app {
+    height: auto;
+    display: grid;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    height: auto;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 25%;
+    grid-auto-flow: dense;
+}
 }
 </style>
