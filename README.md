@@ -11,7 +11,9 @@ This project is the Front-End of the Free Market Syndicate newspaper (09/2018) b
 
 ### Deployed
 
-Deployed via [Surge](https://surge.sh/) at https://huff-post-demo.surge.sh/
+* Static HTML / CSS3 page deployed via [Surge](https://surge.sh/) at https://huff-post-demo.surge.sh/
+
+* Live Vue JS build at http://huff-post-live.surge.sh/
 
 ## Instructions
 
@@ -34,10 +36,16 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 
 > Mobile & Tablet responsive designs have not been done yet.
 
+### Integrations
+- Headless CMS for content publishing - https://www.storyblok.com/ 
+- Integrating (https://www.storyblok.com/tp/add-a-headless-CMS-to-vuejs-in-5-minutes)
+
 #### Resources
 
 - Vue Awesome Icons - https://github.com/Justineo/vue-awesome
 - Font-Awesome icon gallery - https://fontawesome.com/icons?d=gallery
+- SASS Architecture - https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
+- Burger Menu - https://github.com/mbj36/vue-burger-menu
 
 ### Troubleshooting
 
