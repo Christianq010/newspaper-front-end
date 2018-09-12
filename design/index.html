@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="https://s.m.huffpost.com/assets/favicon-2020e123c064086aad150fe909c53771f862d7c76cd62f6146e81d533845fd7d.ico">
+
+    <!-- Our icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <!-- Our CSS file -->
+    <link rel="stylesheet" href="layout.css">
+
+    <title>HuffPost home page</title>
+</head>
+
+<body>
+    <!-- Our Main Container -->
+    <div class="container">
+
+        <!-- Navbar elements -->
+        <div class="navbar">
+
+            <!-- Wrapper for all nav content -->
+            <div class="nav-wrapper">
+
+                <!-- Hamburger menu -->
+                <div class="menu-icn-wrapper">
+                    <i class="fas fa-align-justify menu-icn"></i>
+                </div>
+                <!-- /end of Hamburger menu -->
+
+                <!-- Our main Huff Post logo -->
+                <div class="logo">
+                    <img src="img/HuffPostHero.svg">
+                </div>
+                <!-- /end of main logo -->
+
+                <!-- Social icons  -->
+                <div class="social-icons">
+                    <!-- Icon Toggle Switch -->
+                    <div class="toggle-icn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#666" width="20" height="20" viewBox="0 0 24 24">
+                            <path d="M13.144 8.171c-.035-.066.342-.102.409-.102.074.009-.196.452-.409.102zm-2.152-3.072l.108-.031c.064.055-.072.095-.051.136.086.155.021.248.008.332-.014.085-.104.048-.149.093-.053.066.258.075.262.085.011.033-.375.089-.304.171.096.136.824-.195.708-.176.225-.113.029-.125-.097-.19-.043-.215-.079-.547-.213-.68l.088-.102c-.206-.299-.36.362-.36.362zm13.008 6.901c0 6.627-5.373 12-12 12-6.628 0-12-5.373-12-12s5.372-12 12-12c6.627 0 12 5.373 12 12zm-8.31-5.371c-.006-.146-.19-.284-.382-.031-.135.174-.111.439-.184.557-.104.175.567.339.567.174.025-.277.732-.063.87-.025.248.069.643-.226.211-.381-.355-.13-.542-.269-.574-.523 0 0 .188-.176.106-.166-.218.027-.614.786-.614.395zm6.296 5.371c0-1.035-.177-2.08-.357-2.632-.058-.174-.189-.312-.359-.378-.256-.1-1.337.597-1.5.254-.107-.229-.324.146-.572.008-.12-.066-.454-.515-.605-.46-.309.111.474.964.688 1.076.201-.152.852-.465.992-.038.268.804-.737 1.685-1.251 2.149-.768.694-.624-.449-1.147-.852-.275-.211-.272-.66-.55-.815-.124-.07-.693-.725-.688-.813l-.017.166c-.094.071-.294-.268-.315-.321 0 .295.48.765.639 1.001.271.405.416.995.748 1.326.178.178.858.914 1.035.898.193-.017.803-.458.911-.433.644.152-1.516 3.205-1.721 3.583-.169.317.138 1.101.113 1.476-.029.433-.37.573-.693.809-.346.253-.265.745-.556.925-.517.318-.889 1.353-1.623 1.348-.216-.001-1.14.36-1.261.007-.094-.256-.22-.45-.353-.703-.13-.248-.015-.505-.173-.724-.109-.152-.475-.497-.508-.677-.002-.155.117-.626.28-.708.229-.117.044-.458.016-.656-.048-.354-.267-.646-.53-.851-.389-.299-.188-.537-.097-.964 0-.204-.124-.472-.398-.392-.564.164-.393-.44-.804-.413-.296.021-.538.209-.813.292-.346.104-.7-.082-1.042-.125-1.407-.178-1.866-1.786-1.499-2.946.037-.19-.114-.542-.048-.689.158-.352.48-.747.762-1.014.158-.15.361-.112.547-.229.287-.181.291-.553.572-.781.4-.325.946-.318 1.468-.388.278-.037 1.336-.266 1.503-.06 0 .038.191.604-.019.572.433.023 1.05.749 1.461.579.211-.088.134-.736.567-.423.262.188 1.436.272 1.68.069.15-.124.234-.93.052-1.021.116.115-.611.124-.679.098-.12-.044-.232.114-.425.025.116.055-.646-.354-.218-.667-.179.131-.346-.037-.539.107-.133.108.062.18-.128.274-.302.153-.53-.525-.644-.602-.116-.076-1.014-.706-.77-.295l.789.785c-.039.025-.207-.286-.207-.059.053-.135.02.579-.104.347-.055-.089.09-.139.006-.268 0-.085-.228-.168-.272-.226-.125-.155-.457-.497-.637-.579-.05-.023-.764.087-.824.11-.07.098-.13.201-.179.311-.148.055-.287.126-.419.214l-.157.353c-.068.061-.765.291-.769.3.029-.075-.487-.171-.453-.321.038-.165.213-.68.168-.868-.048-.197 1.074.284 1.146-.235.029-.225.046-.487-.313-.525.068.008.695-.246.799-.36.146-.168.481-.442.724-.442.284 0 .223-.413.354-.615.131.053-.07.376.087.507-.01-.103.445.057.489.033.104-.054.684-.022.594-.294-.1-.277.051-.195.181-.253-.022.009.34-.619.402-.413-.043-.212-.421.074-.553.063-.305-.024-.176-.52-.061-.665.089-.115-.243-.256-.247-.036-.006.329-.312.627-.241 1.064.108.659-.735-.159-.809-.114-.28.17-.509-.214-.364-.444.148-.235.505-.224.652-.476.104-.178.225-.385.385-.52.535-.449.683-.09 1.216-.041.521.048.176.124.104.324-.069.19.286.258.409.099.07-.092.229-.323.298-.494.089-.222.901-.197.334-.536-.374-.223-2.004-.672-3.096-.672-.236 0-.401.263-.581.412-.356.295-1.268.874-1.775.698-.519-.179-1.63.66-1.808.666-.065.004.004-.634.358-.681-.153.023 1.247-.707 1.209-.859-.046-.18-2.799.822-2.676 1.023.059.092.299.092-.016.294-.18.109-.372.801-.541.801-.505.221-.537-.435-1.099.409l-.894.36c-1.328 1.411-2.247 3.198-2.58 5.183-.013.079.334.226.379.28.112.134.112.712.167.901.138.478.479.744.74 1.179.154.259.41.914.329 1.186.108-.178 1.07.815 1.246 1.022.414.487.733 1.077.061 1.559-.217.156.33 1.129.048 1.368l-.361.093c-.356.219-.195.756.021.982 1.818 1.901 4.38 3.087 7.22 3.087 5.517 0 9.989-4.472 9.989-9.989zm-11.507-6.357c.125-.055.293-.053.311-.22.015-.148.044-.046.08-.1.035-.053-.067-.138-.11-.146-.064-.014-.108.069-.149.104l-.072.019-.068.087.008.048-.087.106c-.085.084.002.139.087.102z" />
+                        </svg>
+                    </div>
+                    <!-- Mail icon -->
+                    <div class="main-icn">
+                        <!-- Mail Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="38" height="38" viewBox="0 0 24 24">
+                            <path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
+                        </svg>
+                        <!-- Facebook Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="38" height="38" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z" />
+                        </svg>
+                        <!-- Twitter Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="38" height="38" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" />
+                        </svg>
+                        <!-- Instagram Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="38" height="38" viewBox="0 0 24 24">
+                            <path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- /end of Social icons  -->
+
+                <!-- Language Selection -->
+                <div class="language-selection">
+                    <span class="language-editions-text">EDITION</span>
+                </div>
+                <!-- /end of Language Selection -->
+
+            </div>
+            <!-- /end of Wrapper for all nav content -->
+
+        </div>
+        <!-- /end of Navbar -->
+
+        <!-- Main Section -->
+
+        <!-- Main Content Wrapper with image-->
+        <div class="main-content-wrapper" style="background-image: url('img/main-bg.jpeg');">
+            <!-- Overlay -->
+            <div class="main-content-overlay">
+                <!-- Main Heading -->
+                <div class="main-content-h1-w">
+                    <div class="main-content-h1">
+                        AYANNA!
+                        <br>
+                        LEFT STUNNER IN MA.
+                    </div>
+                </div>
+                <!-- /end of Main heading -->
+            </div>
+            <!-- /end of Overlay -->
+        </div>
+        <!-- Main Content Wrapper -->
+
+        <!-- /end of Main Section -->
+
+        <!-- Headlines Section -->
+
+        <!-- Section 1 (left) -->
+        <section class="sec-1-left">
+
+            <!-- Top Stories Title Box -->
+            <div class="top-title-box">
+                <!-- Top Stories Title Flag -->
+                <div class="top-title-flag">
+                    <!-- Top title text -->
+                    <h1 class="top-title-text">TOP STORIES</h1>
+                </div>
+                <!-- /end of Top Stories Title Flag -->
+            </div>
+            <!-- /end of Top Stories Title Box -->
+
+            <!-- Top Stories Content -->
+            <div class="top-stories-content">
+
+                <!-- Main card content -->
+                <div class="tp-main-card">
+                    <!-- Main card img -->
+                    <div class="tp-main-card-img-wrapper">
+                        <img class="tp-main-card-img" src="https://img.huffingtonpost.com/asset/5b90c97e190000930a5037dd.jpeg?cache=uomucfvpjh&ops=432_243,quality_75" />
+                    </div>
+                    <!-- Main card details -->
+                    <div class="tp-main-card-details">
+                        <a class="tp-main-card-link">
+                            <div class="tp-main-card-text">
+                                Homosexuality Is No Longer A Crime, India Supreme Court Rules
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /end of Main card details -->
+                </div>
+                <!-- /end of Main card content -->
+
+                <!-- Small Cards Content Wrapper -->
+                <div class="tp-small-cards-wrapper">
+
+                    <!-- Small card -->
+                    <div class="tp-small-card">
+                        <!-- Small card image -->
+                        <div class="tp-small-card-img-wrapper">
+                            <img class="tp-small-card-img" src="https://img.huffingtonpost.com/asset/5b907348190000930a5037b4.jpeg?cache=j9fm3vzlob&ops=96_96,quality_75" />
+                        </div>
+                        <!-- Small card details -->
+                        <div class="tp-small-card-details">
+                            <a class="tp-small-card-link">
+                                <div class="tp-small-card-link">
+                                    WHO: After Ebola Death In Urban Area, ‘No One Should Be Sleeping Well Tonight’
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /end of Small card -->
+
+                    <!-- Small card -->
+                    <div class="tp-small-card">
+                        <!-- Small card image -->
+                        <div class="tp-small-card-img-wrapper">
+                            <img class="tp-small-card-img" src="https://img.huffingtonpost.com/asset/5b907348190000930a5037b4.jpeg?cache=j9fm3vzlob&ops=96_96,quality_75" />
+                        </div>
+                        <!-- Small card details -->
+                        <div class="tp-small-card-details">
+                            <a class="tp-small-card-link">
+                                <div class="tp-small-card-link">
+                                    WHO: After Ebola Death In Urban Area, ‘No One Should Be Sleeping Well Tonight’
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /end of Small card -->
+
+                    <!-- Small card -->
+                    <div class="tp-small-card">
+                        <!-- Small card image -->
+                        <div class="tp-small-card-img-wrapper">
+                            <img class="tp-small-card-img" src="https://img.huffingtonpost.com/asset/5b907348190000930a5037b4.jpeg?cache=j9fm3vzlob&ops=96_96,quality_75" />
+                        </div>
+                        <!-- Small card details -->
+                        <div class="tp-small-card-details">
+                            <a class="tp-small-card-link">
+                                <div class="tp-small-card-link">
+                                    WHO: After Ebola Death In Urban Area, ‘No One Should Be Sleeping Well Tonight’
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /end of Small card -->
+
+                    <!-- Small card -->
+                    <div class="tp-small-card">
+                        <!-- Small card image -->
+                        <div class="tp-small-card-img-wrapper">
+                            <img class="tp-small-card-img" src="https://img.huffingtonpost.com/asset/5b907348190000930a5037b4.jpeg?cache=j9fm3vzlob&ops=96_96,quality_75" />
+                        </div>
+                        <!-- Small card details -->
+                        <div class="tp-small-card-details">
+                            <a class="tp-small-card-link">
+                                <div class="tp-small-card-link">
+                                    WHO: After Ebola Death In Urban Area, ‘No One Should Be Sleeping Well Tonight’
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /end of Small card -->
+
+                </div>
+                <!-- /end of Small Cards Content  -->
+
+            </div>
+            <!-- /end of Top Stories Content -->
+
+        </section>
+        <!-- /end of Section 1 (left) -->
+
+        <!-- Section 2 (center) -->
+        <section class="sec-2-center">
+
+            <!-- Huffing Post Zone Center -->
+            <div class="hp-z-center">
+
+                <!-- Huffing Post Zone Center Box-->
+                <div class="hp-z-center-box">
+                    <!-- HP Zone Center Image Wrapper -->
+                    <div class="hp-z-center-img-wrapper">
+                        <img class="hp-z-center-img" src="https://img.huffingtonpost.com/asset/5b908c48200000430034c0b8.jpeg?cache=ypobmtpvrf&ops=936_526,prog,quality_75" />
+                    </div>
+                    <!-- /end of HP Zone Center Image Wrapper -->
+
+                    <!-- HP Zone Center Headline -->
+                    <div class="hp-z-center-headline">
+                        <a class="hp-z-center-link">
+                            <div class="hp-z-center-text">
+                                TRUMP RAGES! TURN THE OP-ED WRITER IN!
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /end of HP Zone Center Headline -->
+
+                    <!-- HP ZONE Center Details -->
+                    <div class="hp-z-center-details">
+                        <!-- HP Zone Center Details des-->
+                        <div class="hp-z-center-des">
+                            <a class="hp-z-center-des-link">
+                                <div class="hp-z-center-des-text">
+                                    Trump Calls Anonymous Writer Of New York Times ‘Resistance’ Piece ‘Gutless’
+                                </div>
+                            </a>
+                        </div>
+                        <!-- HP Zone Center Details author-->
+                        <div class="hp-z-center-author">
+                            <a class="hp-z-center-author-link">
+                                <div class="hp-z-center-author-text">
+                                    By Doha Madani
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /end of HP ZONE Center Details -->
+                </div>
+                <!-- /end of Huffing Post Zone Center Box-->
+
+                <!-- Huffing Post Zone Center -->
+                <div class="hp-z-center">
+
+                    <!-- Huffing Post Zone Center Box-->
+                    <div class="hp-z-center-box">
+                        <!-- HP Zone Center Image Wrapper -->
+                        <div class="hp-z-center-img-wrapper">
+                            <img class="hp-z-center-img" src="https://img.huffingtonpost.com/asset/5b90cf5719000014035037de.jpeg?cache=ftxbdqziw4&ops=936_526,prog,quality_75" />
+                        </div>
+                        <!-- /end of HP Zone Center Image Wrapper -->
+
+                        <!-- HP Zone Center Headline -->
+                        <div class="hp-z-center-headline">
+                            <a class="hp-z-center-link">
+                                <div class="hp-z-center-text">
+                                    WHY CAN’T KAVANAUGH ANSWER THIS SENATOR’S QUESTION?
+                                </div>
+                            </a>
+                        </div>
+                        <!-- HP Zone Center Headline -->
+
+                        <!-- HP ZONE Center Details -->
+                        <div class="hp-z-center-details">
+                            <!-- HP Zone Center Details des-->
+                            <div class="hp-z-center-des">
+                                <a class="hp-z-center-des-link">
+                                    <div class="hp-z-center-des-text">
+                                        Kamala Harris Grilled Kavanaugh About His Discussions Of The Russia Probe
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- HP Zone Center Details author-->
+                            <div class="hp-z-center-author">
+                                <a class="hp-z-center-author-link">
+                                    <div class="hp-z-center-author-text">
+                                        By Nick Visser
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /end of HP ZONE Center Details -->
+                    </div>
+                    <!-- /end of Huffing Post Zone Center Box-->
+
+                </div>
+                <!-- /end of Huffing Post Zone Center -->
+
+            </div>
+            <!--/end of Huffing Post Zone Center -->
+
+        </section>
+        <!-- /end of Section 2 (center) -->
+
+        <!-- Section 3 (right) -->
+        <section class="sec-3-right">
+
+            <!-- Latest News Section -->
+            <div class="ln-news-section">
+
+                <!-- Latest News Title Box -->
+                <div class="ln-title-box">
+                    <!-- Latest News Title Flag -->
+                    <div class="ln-title-flag">
+                        <!-- Latest News Title Text -->
+                        <div class="ln-title-text-box">
+                            <h1 class="ln-title-text">Latest News</h1>
+                        </div>
+                    </div>
+                    <!-- /end of Latest News Title Flag -->
+                    <!-- Latest News Title line -->
+                    <div class="ln-title-line-box">
+                        <div class="ln-title-line"></div>
+                    </div>
+                    <!-- /end of Latest News Title line -->
+                </div>
+                <!-- /end of Latest News Title Box -->
+
+                <!-- Latest News Card Wrapper -->
+                <div class="ln-news-card-wrapper">
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card  -->
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card  -->
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card  -->
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card  -->
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card -->
+
+                    <!-- Latest News Card  -->
+                    <div class="ln-news-card">
+                        <!-- Latest News Card Details -->
+                        <div class="ln-news-card-details">
+                            <!-- Latest News Card Text Wrapper  -->
+                            <div class="ln-news-card-text-wrapper">
+                                <!-- Latest news Card Link -->
+                                <a class="ln-news-card-link">
+                                    <div class="ln-news-card-text">
+                                        Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke
+                                        Loose
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- /end of Latest News Card Text Wrapper  -->
+                            <!-- Latest News Card Time Text -->
+                            <div class="ln-news-card-time-text">
+                                <div class="ln-news-time-text">
+                                    16 hours ago
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Card Time Text -->
+                        </div>
+                        <!-- /end of Latest News Card Details -->
+                    </div>
+                    <!-- /end of Latest News Card  -->
+
+                </div>
+                <!-- /end of Latest News Card Wrapper -->
+
+            </div>
+            <!-- /end of Latest News Section -->
+
+        </section>
+        <!-- /end of Section 3 (right) -->
+
+        <!-- /end of Content Section -->
+
+        <!-- News Section -->
+        <!-- News Big Story -->
+        <section class="news-election">
+
+            <!-- Latest News Section -->
+            <div class="ne-news-section">
+
+                <!-- Latest News Title Box -->
+                <div class="ne-news-title-box">
+
+                    <!-- Latest News Title Flag -->
+                    <div class="ne-news-title-flag">
+                        <!-- Latest Title News Text -->
+                        <div class="ne-news-title-text-box">
+                            <h1 class="ne-news-title-text">ELECTIONS HQ</h1>
+                        </div>
+                        <!-- /end of Latest Title News Text -->
+                    </div>
+                    <!-- /end of Latest News Title Flag -->
+
+                    <!-- Latest News Title Line -->
+                    <div class="ne-news-title-line-box">
+                        <div class="ne-news-title-line"></div>
+                    </div>
+                    <!-- /end of Latest News Title Line -->
+                </div>
+                <!-- /end of Latest News Title Box -->
+
+                <!-- Latest News Content Card -->
+                <div class="ne-news-content-card-wrapper">
+                    <div class="ne-news-content-card">
+                        <!-- Latest news Content Card Image -->
+                        <div class="ne-news-content-img-wrapper">
+                            <img class="ne-news-content-img" src="https://img.huffingtonpost.com/asset/5b95e78c200000040734c53e.jpeg" />
+                        </div>
+                        <!-- /end of Latest news Content Card Image -->
+                        <!-- Latest News Content Wrapper -->
+                        <div class="ne-news-content-wrapper">
+                            <!-- Latest News Content Headline -->
+                            <div class="ne-news-content-headline">
+                                <a class="ne-news-content-link">
+                                    <div class="ne-news-content-text">
+                                        Former Ted Cruz Campaign Strategist Has A Wake-Up Call For His Old Boss
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Latest News Content Headline -->
+
+                            <!-- Latest News Content Details -->
+                            <div class="ne-news-content-details">
+                                <!-- Latest News Content Details des-->
+                                <div class="ne-news-content-des">
+                                    <a class="ne-news-content-des-link">
+                                        <div class="ne-news-content-des-text">
+                                            Rick Tyler said that it's entirely possible for Cruz to lose the Texas
+                                            Senate race.
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Latest News Content Details author-->
+                                <div class="ne-news-content-author">
+                                    <a class="ne-news-content-author-link">
+                                        <div class="ne-news-content-author-text">
+                                            By Ed Mazza
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /end of Latest News Content Details -->
+                        </div>
+                        <!-- /end of Latest News Content Wrapper -->
+
+                    </div>
+                </div>
+                <!-- /end of Latest News Content Card -->
+
+                <!-- /end of Latest News Section -->
+                <div class="ne-news-section">
+
+        </section>
+        <!-- /end of News Big Story -->
+
+        <!-- Election News Story Card Wrapper -->
+        <section class="ne-one-story-card-wrapper">
+
+            <!-- Election News Story Card One  -->
+            <div class="ne-one-story-card">
+
+                <!-- Election News Story Card Img -->
+                <div class="ne-one-story-card-img-wrapper">
+                    <img class="ne-one-story-card-img" src="https://img.huffingtonpost.com/asset/5b96106a2000000b0b37bab3.png" />
+                </div>
+                <!-- /end of Election News Story Card Img -->
+
+                <!-- Election News Story Card Details -->
+                <div class="ne-one-story-card-details">
+                    <!-- Election News Story Card Link -->
+                    <a class="ne-one-story-card-link">
+                        <!-- Election News Story Card Link Text-->
+                        <div class="ne-one-story-card-text">
+                            RNC Chair Says Republicans Have ’50-50′ Shot To Keep Control Of The House
+                        </div>
+                        <!-- /end of Election News Story Card Link Text-->
+                    </a>
+                    <!-- /end of Election News Story Card Link -->
+                </div>
+                <!-- /end of Election News Story Card Details -->
+            </div>
+            <!-- /end of Election News Story Card One  -->
+
+        </section>
+        <!-- /end of Election News Story One -->
+
+        <!-- Election News Story Card Wrapper -->
+        <section class="ne-two-story-card-wrapper">
+
+            <!-- Election News Story Card Two  -->
+            <div class="ne-two-story-card">
+
+                <!-- Election News Story Card Img -->
+                <div class="ne-two-story-card-img-wrapper">
+                    <img class="ne-two-story-card-img" src="https://img.huffingtonpost.com/asset/5b9426a92000003a0734c492.jpeg" />
+                </div>
+                <!-- /end of Election News Story Card Img -->
+
+                <!-- Election News Story Card Details -->
+                <div class="ne-two-story-card-details">
+                    <!-- Election News Story Card Link -->
+                    <a class="ne-two-story-card-link">
+                        <!-- Election News Story Card Link Text-->
+                        <div class="ne-two-story-card-text">
+                            New York Voters Are About To Tell Us A Lot About The State Of The Resistance
+                        </div>
+                        <!-- /end of Election News Story Card Link Text-->
+                    </a>
+                    <!-- /end of Election News Story Card Link -->
+                </div>
+                <!-- /end of Election News Story Card Details -->
+            </div>
+            <!-- /end of Election News Story Card Two  -->
+
+        </section>
+        <!-- /end of Election News Story Two -->
+        <!-- /end of News Section -->
+
+        <!-- Opinions Section -->
+        <section class="opinion-section">
+            <!-- Opinion Section wrapper -->
+            <div class="os-section-wrapper">
+                <!-- Opinion Title Section Box -->
+                <div class="os-title-box">
+                    <!-- Opinion title flag -->
+                    <div class="os-title-flag">
+                        <!-- Opinion Title text -->
+                        <div class="os-title-text-box">
+                            <h1 class="os-title-text">Opinion</h1>
+                        </div>
+                    </div>
+                    <!-- /end of Opinion title flag -->
+                    <!-- Opinion Title Line -->
+                    <div class="os-title-line-box">
+                        <div class="os-title-line"></div>
+                    </div>
+                    <!-- /end of Opinion Title Line -->
+                </div>
+                <!-- /end of Opinion Title Section Box -->
+
+                <!-- Opinion Card Wrapper -->
+                <div class="os-card-wrapper">
+
+                    <!-- Opinion card -->
+                    <div class="os-card">
+                        <!-- Opinion Card image -->
+                        <div class="os-card-img-wrapper">
+                            <img class="os-card-img" src="https://img.huffingtonpost.com/asset/5aaeaa882000008106eb242e.jpg" />
+                        </div>
+                        <!-- /end of Opinion Card image -->
+
+                        <!-- Opinion card Details Box-->
+                        <div class="os-card-details-box">
+                            <!-- Opinions Card Details Des -->
+                            <a class="os-card-details-link">
+                                <div class="os-card-details-text">
+                                    Sweden Shows No Country Is Immune To Far-Right, Anti-Immigrant Backlash
+                                </div>
+                            </a>
+                            <!-- /end of Opinions Card Details Des -->
+                            <!-- Opinion Card Author -->
+                            <div class="os-card-author-link">
+                                <div class="os-card-author-text">
+                                    By Robert Kuttner, Columnist
+                                </div>
+                            </div>
+                            <!-- /end of Opinion Card Author -->
+                        </div>
+                        <!-- /end of Opinion card Details Box-->
+                    </div>
+                    <!-- /end of Opinion card -->
+
+                    <!-- Opinion card -->
+                    <div class="os-card">
+                        <!-- Opinion Card image -->
+                        <div class="os-card-img-wrapper">
+                            <img class="os-card-img" src="https://img.huffingtonpost.com/asset/5aaeaa882000008106eb242e.jpg" />
+                        </div>
+                        <!-- /end of Opinion Card image -->
+
+                        <!-- Opinion card Details Box-->
+                        <div class="os-card-details-box">
+                            <!-- Opinions Card Details Des -->
+                            <a class="os-card-details-link">
+                                <div class="os-card-details-text">
+                                    Sweden Shows No Country Is Immune To Far-Right, Anti-Immigrant Backlash
+                                </div>
+                            </a>
+                            <!-- /end of Opinions Card Details Des -->
+                            <!-- Opinion Card Author -->
+                            <div class="os-card-author-link">
+                                <div class="os-card-author-text">
+                                    By Robert Kuttner, Columnist
+                                </div>
+                            </div>
+                            <!-- /end of Opinion Card Author -->
+                        </div>
+                        <!-- /end of Opinion card Details Box-->
+                    </div>
+                    <!-- /end of Opinion card -->
+
+                    <!-- Opinion card -->
+                    <div class="os-card">
+                        <!-- Opinion Card image -->
+                        <div class="os-card-img-wrapper">
+                            <img class="os-card-img" src="https://img.huffingtonpost.com/asset/5aaeaa882000008106eb242e.jpg" />
+                        </div>
+                        <!-- /end of Opinion Card image -->
+
+                        <!-- Opinion card Details Box-->
+                        <div class="os-card-details-box">
+                            <!-- Opinions Card Details Des -->
+                            <a class="os-card-details-link">
+                                <div class="os-card-details-text">
+                                    Sweden Shows No Country Is Immune To Far-Right, Anti-Immigrant Backlash
+                                </div>
+                            </a>
+                            <!-- /end of Opinions Card Details Des -->
+                            <!-- Opinion Card Author -->
+                            <div class="os-card-author-link">
+                                <div class="os-card-author-text">
+                                    By Robert Kuttner, Columnist
+                                </div>
+                            </div>
+                            <!-- /end of Opinion Card Author -->
+                        </div>
+                        <!-- /end of Opinion card Details Box-->
+                    </div>
+                    <!-- /end of Opinion card -->
+
+                </div>
+                <!-- /end of Opinion Card Wrapper -->
+            </div>
+            <!-- /end of Opinion Section wrapper -->
+        </section>
+        <!-- /end of Opinions Section -->
+
+        <!-- Top Videos Section -->
+        <section class="tv-section">
+
+            <!-- Tv section Title Box -->
+            <div class="tv-section-title-box">
+                <!-- TV section Title Flag -->
+                <div class="tv-section-title-flag">
+                    <!-- TV section Title Text -->
+                    <h1 class="tv-section-title-text">TOP VIDEOS</h1>
+                    <!-- /end of TV section Title Text -->
+                </div>
+                <!-- /end of TV section Title Flag -->
+            </div>
+            <!-- /end of Tv section Title Box -->
+
+            <!-- TV Content Box -->
+            <div class="tv-section-content-box">
+                <!-- TV Content Box Wrapper -->
+                <div class="tv-box-wrapper">
+
+                    <!-- TV Content Box one -->
+                    <div class="tv-box-one">
+                        <!-- TV content box img -->
+                        <div class="tv-box-one-img-wrapper">
+                            <img class="tv-box-one-img" src="https://img.huffingtonpost.com/asset/5b96dc51190000320e503d43.jpeg" />
+                        </div>
+                        <!-- /end of TV content box img -->
+                        <!-- TV content Details -->
+                        <div class="tv-box-one-details">
+                            <a class="tv-box-one-text-link">
+                                <div class="tv-box-one-text">
+                                    Why Dismissing Serena Williams’ Discrimination Claim Is So Problematic
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /end of TV content Des -->
+                    </div>
+                    <!-- /end of TV Content Box one -->
+
+                    <!-- TV Content Box two -->
+                    <div class="tv-box-two">
+                        <!-- TV content box img -->
+                        <div class="tv-box-one-img-wrapper">
+                            <img class="tv-box-one-img" src="https://img.huffingtonpost.com/asset/5b9675ab190000440e503cbd.jpeg" />
+                        </div>
+                        <!-- /end of TV content box img -->
+                        <!-- TV content Details -->
+                        <div class="tv-box-one-details">
+                            <a class="tv-box-one-text-link">
+                                <div class="tv-box-one-text">
+                                    Despite Boycotts, Nike Sales Soar After Adding Kaepernick To Its Ad Campaign
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /end of TV content Des -->
+                    </div>
+                    <!-- /end of TV Content Box two -->
+                </div>
+                <!-- /end of TV Content Box Wrapper -->
+            </div>
+            <!-- /end of TV Content Box -->
+
+        </section>
+        <!-- /end of Top Videos Section -->
+
+        <!-- Trending Stories Section -->
+        <section class="ts-section">
+            <!--  -->
+        </section>
+        <!-- /end of Trending Stories Section ->
+            
+        <!-- In the News Section -->
+        <section class="itn-section">In the News</section>
+        <!-- /end of In the News Section -->
+
+        <!-- Partners Section -->
+        <section class="partners-section">Our partnets</section>
+        <!-- /end of Partners Section -->
+
+        <!-- Videos Section -->
+        <section class="video-section">Video Section</section>
+        <!-- /end of Videos Section -->
+
+        <!-- Footer -->
+        <footer class="footer">footer</footer>
+        <!-- /end of Footer -->
+
+
+    </div>
+
+</body>
+
+</html>
