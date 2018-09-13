@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <navbar />
+    <main-story />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar/Navbar.vue";
+import Navbar from "./components/Navbar/Navbar";
+import MainStory from "./components/MainStory";
 
 export default {
   name: "app",
   components: {
-    Navbar
+    Navbar,
+    MainStory
   }
 };
 </script>
