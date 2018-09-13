@@ -65,7 +65,7 @@
             <!-- /end of Language Selection -->
 
             <!-- The modal component, passed in the prop -->
-            <modal v-if="showModal" @close="showModal = false">
+            <div v-if="showModal" @close="showModal = false">
               <!-- Styles are imported from LangModal component -->
               <div id="modal-template">
                 <transition name="modal">
@@ -101,7 +101,7 @@
                     </div>
                 </transition>
               </div>
-            </modal>
+            </div>
             <!-- /end of Modal Component -->
 
         </div>
