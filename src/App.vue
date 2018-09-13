@@ -3,6 +3,7 @@
     <navbar />
     <main-story />
     <top-stories />
+    <zone-center />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Navbar from "./components/Navbar/Navbar";
 import MainStory from "./components/MainStory";
 import TopStories from "./components/Topstories";
+import ZoneCenter from "./components/ZoneCenter";
 
 export default {
   name: "app",
   components: {
     Navbar,
     MainStory,
-    TopStories
+    TopStories,
+    ZoneCenter
   }
 };
 </script>

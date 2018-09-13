@@ -75,15 +75,17 @@
     "zonecenter":[
         {
             "title": "TRUMP RAGES! TURN THE OP-ED WRITER IN!",
-            "img": "j.jpg",
+            "img": "https://img.huffingtonpost.com/asset/5b908c48200000430034c0b8.jpeg?cache=ypobmtpvrf&ops=936_526,prog,quality_75",
             "description": "Trump Calls Anonymous Writer Of New York Times ‘Resistance’ Piece ‘Gutless’",
-            "author": "Doha Madani"
+            "author": "Doha Madani",
+            "id": "01"
         },
         {
             "title": "WHY CAN’T KAVANAUGH ANSWER THIS SENATOR’S QUESTION?",
-            "img": "k.jpg",
+            "img": "https://img.huffingtonpost.com/asset/5b90cf5719000014035037de.jpeg?cache=ftxbdqziw4&ops=936_526,prog,quality_75",
             "description": "Kamala Harris Grilled Kavanaugh About His Discussions Of The Russia Probe",
-            "author": "Nick Visser"
+            "author": "Nick Visser",
+            "id": "02"
         }
     ],
     "latestnews": [
