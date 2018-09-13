@@ -65,9 +65,8 @@
 </template>
 
 <script>
-// import from data.json
+// import data from "./../data.json";
 // title: data.topstories[0].topstorytitle[0].title
-import data from "./../data.json";
 
 export default {
     data: function() {
