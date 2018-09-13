@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar/Navbar.vue'
+import Navbar from "./components/Navbar/Navbar.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Navbar
   }
-}
+};
 </script>
 
 <style>
@@ -34,7 +34,8 @@ export default {
 @font-face {
   font-family: ProximaNovaBold;
   font-weight: bold;
-  src: url("./assets/font/MARK\ SIMONSON\ -\ PROXIMA\ NOVA\ BOLD.OTF") format("opentype");
+  src: url("./assets/font/MARK\ SIMONSON\ -\ PROXIMA\ NOVA\ BOLD.OTF")
+    format("opentype");
 }
 
 /* Global styles */
@@ -65,13 +66,13 @@ body {
 }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
-#app {
+  #app {
     height: auto;
     display: grid;
     grid-gap: 0;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-auto-rows: 25%;
     grid-auto-flow: dense;
-}
+  }
 }
 </style>

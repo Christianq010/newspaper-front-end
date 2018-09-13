@@ -138,4 +138,8 @@ export default {};
     letter-spacing: 0.01875em;
     color: #ffffff;
 }
+
+.econ-child:hover{
+    text-decoration: underline;
+}
 </style>
