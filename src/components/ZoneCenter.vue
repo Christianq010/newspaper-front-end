@@ -62,6 +62,7 @@ export default {
           description:
             "Trump Calls Anonymous Writer Of New York Times ‘Resistance’ Piece ‘Gutless’",
           author: "Doha Madani",
+          route: "",
           id: "01"
         },
         {
@@ -70,6 +71,7 @@ export default {
           description:
             "Kamala Harris Grilled Kavanaugh About His Discussions Of The Russia Probe",
           author: "Nick Visser",
+          route: "",
           id: "02"
         }
       ]

@@ -70,31 +70,31 @@ export default {
                 {
                     title: "The Funniest Tweets From Parents This Week (Sept. 1-7)",
                     time: "18 minutes ago",
-                    route: ""
+                    route: "",
                     id: "01"
                 },
                 {
                     title: "'Grey’s Anatomy’ Casts Its First Gay Male Surgeon Character",
                     time: "33 minutes ago",
-                    route: ""
+                    route: "",
                     id: "02"
                 },
                 {
                     title: "More Than 400 Kids Separated From Parents At The Border Are Still In Government Custody",
                     time: "40 minutes ago",
-                    route: ""
+                    route: "",
                     id: "03"
                 },
                 {
                     title: "‘If We Think In Our Native Language, Then Most Dogs Would Be Thinking In Barks’",
                     time: "44 minutes ago",
-                    route: ""
+                    route: "",
                     id: "04"
                 },
                 {
                     title: "Read More Updates From Brett Kavanaugh’s Confirmation Hearing",
                     time: "1 hour ago",
-                    route: ""
+                    route: "",
                     id: "05"
                 },
                 {
