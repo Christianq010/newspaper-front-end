@@ -4,6 +4,7 @@
     <main-story />
     <top-stories />
     <zone-center />
+    <latest-news />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Navbar from "./components/Navbar/Navbar";
 import MainStory from "./components/MainStory";
 import TopStories from "./components/Topstories";
 import ZoneCenter from "./components/ZoneCenter";
+import LatestNews from "./components/LatestNews";
 
 export default {
   name: "app",
@@ -19,7 +21,8 @@ export default {
     Navbar,
     MainStory,
     TopStories,
-    ZoneCenter
+    ZoneCenter,
+    LatestNews
   }
 };
 </script>
