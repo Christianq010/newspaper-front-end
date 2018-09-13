@@ -60,9 +60,19 @@
 
             <!-- Language Selection -->
             <div class="language-selection">
-                <span class="language-editions-text">EDITION</span>
+                <span class="language-editions-text" @click="showModal = true">EDITION</span>
             </div>
             <!-- /end of Language Selection -->
+
+            <!-- use the modal component, pass in the prop -->
+            <modal v-if="showModal" @close="showModal = false">
+              <!--
+                you can use custom content here to overwrite
+                default content
+              -->
+              <LangModal />
+              <!-- <h3 slot="header" style="color: white;">custom header</h3> -->
+            </modal>
 
         </div>
         <!-- /end of Wrapper for all nav content -->
@@ -74,13 +84,20 @@
 <script>
 // components
 import Sidebar from './Sidenav';
+import LangModal from './LangModal';
 // Hamburger menu
 import { Slide } from "vue-burger-menu";
 
 export default {
   components: {
     Slide,
-    Sidebar
+    Sidebar,
+    LangModal
+  },
+  data: function() {
+    return {
+      showModal: false
+    }
   }
 };
 </script>
