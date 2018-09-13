@@ -1,38 +1,3 @@
-<template>
-    <div id="modal-template">
-        <transition name="modal">
-            <div class="modal-mask">
-            <div class="modal-wrapper">
-                <div class="modal-container">
-
-                    <div class="modal-header">
-                        <slot name="header">
-                        <a class="modal-text">English</a>
-                        </slot>
-                    </div>
-
-                    <div class="modal-body">
-                        <slot name="body">
-                        <a class="modal-text">Sinhala</a>
-                        </slot>
-                    </div>
-
-                    <div class="modal-footer">
-                        <slot name="footer">
-                        <a class="modal-text">Tamil</a>
-                        <button class="modal-default-button" @click="$emit('close')">
-                            OK
-                        </button>
-                        </slot>
-                    </div>
-
-                </div>
-            </div>
-            </div>
-        </transition>
-    </div>
-</template>
-
 <script>
 export default {
   data: function() {
@@ -66,7 +31,7 @@ export default {
 .modal-container {
   width: 300px;
   margin: 0px auto;
-  padding: 20px 30px;
+  padding: 5px 30px 20px 30px;
   background-color: $sidenav-bg;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
@@ -77,6 +42,14 @@ export default {
 .modal-header h3 {
   margin-top: 0;
   color: #42b983;
+}
+
+.modal-default-button {
+  color: $white;
+  font-size: 2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .modal-body {
@@ -90,17 +63,13 @@ export default {
   letter-spacing: 0.09375em;
   line-height: 1.25rem;
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
   font-style: italic;
   margin-bottom: 20px;
 }
 
 .modal-text:hover {
   border-bottom: solid 3px $primary-color;
-}
-
-.modal-default-button {
-  float: right;
 }
 
 /*
