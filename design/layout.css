@@ -611,10 +611,84 @@ body {
   }
 
   /* ----------------------------------- */
+  /* In the News Section */
   .itn-section {
     grid-row: 31 / 33;
     grid-column: 1 / -1;
-    background-color: #6d6d6d;
+    margin: 1em 0;
+  }
+  .itn-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: #ffffff;
+  }
+  .itn-title-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background: #333333;
+    color: #ffffff;
+    height: 2em;
+  }
+  .itn-title-text {
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-size: 1.0625rem;
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    letter-spacing: 0.12em;
+    padding-top: 3px;
+  }
+  .itn-content-card-wrapper {
+    margin: 1em 0 0 0;
+  }
+  .itn-content-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.8px solid #b6b6b6;
+  }
+  .itn-content-img-wrapper {
+  }
+  .itn-content-img {
+    width: 100%;
+  }
+  .itn-details-wrapper {
+    padding: 0 1em;
+  }
+  .itn-content-category {
+  }
+  .itn-content-category-link {
+  }
+  .itn-content-category-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 0.8125rem;
+    letter-spacing: 1.4px;
+  }
+  .itn-content-wrapper {
+  }
+  .itn-content-headline {
+    padding: 0.3em 0;
+  }
+  .itn-content-headline:hover {
+    text-decoration: underline;
+  }
+  .itn-content-link {
+  }
+  .itn-content-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.01em;
+  }
+  .itn-content-details {
+  }
+  .itn-content-des {
+  }
+  .itn-content-des-link {
   }
   /* ----------------------------------- */
   .partners-section {
@@ -1261,8 +1335,84 @@ body {
   .itn-section {
     grid-row: 24 / 27;
     grid-column: 2 / 11;
-    background-color: #6d6d6d;
+    margin: 1em 0;
   }
+  .itn-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: #ffffff;
+  }
+  .itn-title-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background: #333333;
+    color: #ffffff;
+    height: 2em;
+    width: 30%;
+  }
+  .itn-title-text {
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-size: 1.0625rem;
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    letter-spacing: 0.12em;
+    padding-top: 3px;
+  }
+  .itn-content-card-wrapper {
+    margin: 1em 0 0 0;
+  }
+  .itn-content-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.8px solid #b6b6b6;
+  }
+  .itn-content-img-wrapper {
+  }
+  .itn-content-img {
+    width: 212px;
+    height: 122px;
+  }
+  .itn-details-wrapper {
+    padding: 0 1em;
+  }
+  .itn-content-category {
+  }
+  .itn-content-category-link {
+  }
+  .itn-content-category-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 0.8125rem;
+    letter-spacing: 1.4px;
+  }
+  .itn-content-wrapper {
+  }
+  .itn-content-headline {
+    padding: 0.3em 0;
+  }
+  .itn-content-headline:hover {
+    text-decoration: underline;
+  }
+  .itn-content-link {
+  }
+  .itn-content-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.01em;
+  }
+  .itn-content-details {
+  }
+  .itn-content-des {
+  }
+  .itn-content-des-link {
+  }
+
   /* ----------------------------------- */
   .partners-section {
     grid-row: 27 / 31;
