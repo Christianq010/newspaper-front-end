@@ -1150,8 +1150,54 @@ body {
   .ts-section {
     grid-row: 21 / 25;
     grid-column: 11 / 14;
-    background-color: #363636;
   }
+  .ts-section-wrapper {
+    padding: 0 0.5em;
+  }
+  .ts-title-box {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 2.5em;
+  }
+  .ts-title-flag {}
+  .ts-title-text-box {}
+  .ts-title-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 1.0625rem;
+    font-style: italic;
+  }
+  .ts-title-line-box {
+    padding: 1.5em 0.5em;
+  }
+  .ts-title-line {
+    height: 3px;
+    background: #000000;
+  }
+  .ts-card-wrapper {}
+  .ts-card {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.8px solid #b6b6b6;
+    padding: 1em 0;
+  }
+  .ts-card-details:hover {
+    text-decoration: underline;
+  }
+  .ts-card-link {}
+  .ts-card-link-text {
+    padding: 0 1em;
+  }
+  .ts-card-img-wrapper {
+    height: 65px;
+    cursor: pointer;
+  }
+  .ts-card-img {
+    height: 100%;
+    /* border-radius: 50%; */
+    background-size: cover;
+  }
+
+
   /* ----------------------------------- */
   .itn-section {
     grid-row: 24 / 27;
