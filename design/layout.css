@@ -691,20 +691,9 @@ body {
   .itn-content-des-link {
   }
   /* ----------------------------------- */
-  .partners-section {
-    grid-row: 33 / 35;
-    grid-column: 1 / -1;
-    background-color: #a8a8a8;
-  }
-  /* ----------------------------------- */
-  .video-section {
-    grid-row: 35 / 37;
-    grid-column: 1 / -1;
-    background-color: #8b8b8b;
-  }
-  /* ----------------------------------- */
+  /* Site Footer */
   .footer {
-    grid-row: 37 / 39;
+    grid-row: 33 / 35;
     grid-column: 1 / -1;
     background-color: #000000;
   }
@@ -1414,20 +1403,9 @@ body {
   }
 
   /* ----------------------------------- */
-  .partners-section {
-    grid-row: 27 / 31;
-    grid-column: 2 / 11;
-    background-color: #a8a8a8;
-  }
-  /* ----------------------------------- */
-  .video-section {
-    grid-row: 31 / 35;
-    grid-column: 2 / 11;
-    background-color: #8b8b8b;
-  }
-  /* ----------------------------------- */
+  /* Footer */
   .footer {
-    grid-row: 35 / 39;
+    grid-row: 27 / 31;
     grid-column: 1 / -1;
     background-color: #000000;
   }
