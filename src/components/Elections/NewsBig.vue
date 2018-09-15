@@ -91,6 +91,7 @@ export default {
                     description: "Rick Tyler said that it's entirely possible for Cruz to lose the Texas Senate race.",
                     author: "By Ed Mazza",
                     img: "https://img.huffingtonpost.com/asset/5b9bd6fe1f0000500020ffa8.jpeg",
+                    id: "001",
                     article: "",
                     route: "/"
                 }
