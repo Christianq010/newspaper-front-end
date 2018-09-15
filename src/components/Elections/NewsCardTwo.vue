@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "./../../scss/main";
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -60,20 +60,20 @@ export default {
     grid-row: 21 / 23;
     grid-column: 1 / -1;
   }
-  .ne-one-story-card {
+  .ne-two-story-card {
   }
-  .ne-one-story-card-img-wrapper {
+  .ne-two-story-card-img-wrapper {
   }
-  .ne-one-story-card-img {
+  .ne-two-story-card-img {
     max-width: 100%;
   }
-  .ne-one-story-card-details {
+  .ne-two-story-card-details {
     padding: 0 1em 0 1em;
     margin: 1em 0;
   }
-  .ne-one-story-card-link {
+  .ne-two-story-card-link {
   }
-  .ne-one-story-card-text {
+  .ne-two-story-card-text {
     font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
     font-size: 1.875rem;
     line-height: 2rem;
