@@ -6,6 +6,7 @@
     <zone-center />
     <latest-news />
     <news-big />
+    <news-card-one />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import TopStories from "./components/Topstories";
 import ZoneCenter from "./components/ZoneCenter";
 import LatestNews from "./components/LatestNews";
 import NewsBig from "./components/Elections/NewsBig";
+import NewsCardOne from "./components/Elections/NewsCardOne";
 
 export default {
   name: "app",
@@ -25,7 +27,8 @@ export default {
     TopStories,
     ZoneCenter,
     LatestNews,
-    NewsBig
+    NewsBig,
+    NewsCardOne
   }
 };
 </script>
