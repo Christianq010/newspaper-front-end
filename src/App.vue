@@ -7,6 +7,7 @@
     <latest-news />
     <news-big />
     <news-card-one />
+    <news-card-two />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import ZoneCenter from "./components/ZoneCenter";
 import LatestNews from "./components/LatestNews";
 import NewsBig from "./components/Elections/NewsBig";
 import NewsCardOne from "./components/Elections/NewsCardOne";
+import NewsCardTwo from "./components/Elections/NewsCardTwo";
 
 export default {
   name: "app",
@@ -28,7 +30,8 @@ export default {
     ZoneCenter,
     LatestNews,
     NewsBig,
-    NewsCardOne
+    NewsCardOne,
+    NewsCardTwo
   }
 };
 </script>
