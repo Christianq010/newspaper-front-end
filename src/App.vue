@@ -5,6 +5,7 @@
     <top-stories />
     <zone-center />
     <latest-news />
+    <news-big />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MainStory from "./components/MainStory";
 import TopStories from "./components/Topstories";
 import ZoneCenter from "./components/ZoneCenter";
 import LatestNews from "./components/LatestNews";
+import NewsBig from "./components/Elections/NewsBig";
 
 export default {
   name: "app",
@@ -22,7 +24,8 @@ export default {
     MainStory,
     TopStories,
     ZoneCenter,
-    LatestNews
+    LatestNews,
+    NewsBig
   }
 };
 </script>
