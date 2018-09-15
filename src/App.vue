@@ -12,6 +12,7 @@
     <top-videos />
     <trending-column />
     <in-the-news />
+    <footer-section />
   </div>
 </template>
 
@@ -27,7 +28,8 @@ import NewsCardTwo from "./components/Elections/NewsCardTwo";
 import OpinionColumn from "./components/Opinion";
 import TopVideos from "./components/TopVideos";
 import TrendingColumn from "./components/Trending";
-import InTheNews from "././components/InTheNews";
+import InTheNews from "./components/InTheNews";
+import FooterSection from "./components/Footer";
 
 export default {
   name: "app",
@@ -43,7 +45,8 @@ export default {
     OpinionColumn,
     TopVideos,
     TrendingColumn,
-    InTheNews
+    InTheNews,
+    FooterSection
   }
 };
 </script>
