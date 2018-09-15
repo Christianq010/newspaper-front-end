@@ -8,6 +8,7 @@
     <news-big />
     <news-card-one />
     <news-card-two />
+    <opinion-column />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import LatestNews from "./components/LatestNews";
 import NewsBig from "./components/Elections/NewsBig";
 import NewsCardOne from "./components/Elections/NewsCardOne";
 import NewsCardTwo from "./components/Elections/NewsCardTwo";
+import OpinionColumn from "./components/Opinion";
 
 export default {
   name: "app",
@@ -31,7 +33,8 @@ export default {
     LatestNews,
     NewsBig,
     NewsCardOne,
-    NewsCardTwo
+    NewsCardTwo,
+    OpinionColumn
   }
 };
 </script>
