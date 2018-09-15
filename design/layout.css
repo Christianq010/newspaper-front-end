@@ -697,6 +697,54 @@ body {
     grid-column: 1 / -1;
     background-color: #000000;
   }
+  .footer-wrapper {
+    padding: 3em;
+  }
+  .footer-details-wrapper {}
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+  }
+  .footer-logo-box {
+    margin: 0 0 2em 0;
+  }
+  .footer-logo-link {}
+  .footer-logo {
+    height: auto;
+    width: 225px;
+  }
+  .footer-link-border-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 2em 0;
+  }
+  .footer-links-box {
+    border-bottom: 0.8px solid #b6b6b6;
+  }
+  .footer-link-box {
+    margin: 0 0 0.8em 0;
+  }
+  .footer-link {
+    color: #aaa;
+    font-size: 0.75rem;
+    letter-spacing: 1.3px;
+    padding-right: 40px;
+    text-decoration: none;
+  }
+  .footer-line {
+  }
+  .footer-tm-box {
+  }
+  .footer-tm-text {
+    color: #aaa;
+    font-size: 0.8125rem;
+    letter-spacing: 0.4px;
+  }
   /* ----------------------------------- */
 }
 
@@ -1408,6 +1456,54 @@ body {
     grid-row: 27 / 31;
     grid-column: 1 / -1;
     background-color: #000000;
+  }
+  .footer-wrapper {
+    padding: 5em 21em;
+  }
+  .footer-details-wrapper {}
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footer-logo-box {
+    margin: 0 0 2em 0;
+  }
+  .footer-logo-link {}
+  .footer-logo {
+    height: auto;
+    width: 225px;
+  }
+  .footer-link-border-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 2em 0;
+  }
+  .footer-links-box {
+    border-bottom: 0.8px solid #b6b6b6;
+  }
+  .footer-link-box {
+    margin: 0 0 0.8em 0;
+  }
+  .footer-link {
+    color: #aaa;
+    font-size: 0.75rem;
+    letter-spacing: 1.3px;
+    padding-right: 40px;
+    text-decoration: none;
+  }
+  .footer-line {
+  }
+  .footer-tm-box {
+  }
+  .footer-tm-text {
+    color: #aaa;
+    font-size: 0.8125rem;
+    letter-spacing: 0.4px;
   }
   /* ----------------------------------- */
 }
