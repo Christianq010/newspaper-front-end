@@ -54,3 +54,4 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 ### Troubleshooting
 
 - _[Solved]_ Vue-cli install error due to `ghost node restriction` - https://github.com/gilbarbara/react-joyride/issues/131
+- _[Solved]_ Detached Head issue due to commits not checked out on a new branch - https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
