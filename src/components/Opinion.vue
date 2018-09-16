@@ -129,7 +129,7 @@ export default {
   .os-title-text-box {
   }
   .os-title-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.0625rem;
     font-style: italic;
   }
@@ -138,14 +138,14 @@ export default {
   }
   .os-title-line {
     height: 3px;
-    background: #000000;
+    background: $black;
   }
   .os-card-wrapper {
   }
   .os-card {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
     padding: 1em 0;
   }
   .os-card-img-wrapper {
@@ -172,7 +172,7 @@ export default {
     padding: 0 1em;
     margin: 1em 0;
     font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    color: #757575;
+    color: $time-text;
     font-size: 0.8125rem;
     line-height: 0.9375rem;
     font-weight: normal;
@@ -199,7 +199,7 @@ export default {
   .os-title-text-box {
   }
   .os-title-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.0625rem;
     font-style: italic;
   }
@@ -215,7 +215,7 @@ export default {
   .os-card {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
     padding: 1em 0;
   }
   .os-card-img-wrapper {
@@ -241,8 +241,8 @@ export default {
   .os-card-author-text {
     padding: 0 1em;
     margin: 1em 0;
-    font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    color: #757575;
+    font-family: $font-light;
+    color: $time-text;
     font-size: 0.8125rem;
     line-height: 0.9375rem;
     font-weight: normal;

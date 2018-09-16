@@ -198,22 +198,22 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: #ffffff;
+    background-color: $white;
   }
   .itn-title-flag {
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background: #333333;
-    color: #ffffff;
+    background: $third-color;
+    color: $white;
     height: 2em;
   }
   .itn-title-text {
     text-transform: uppercase;
     padding: 0 15px;
     font-size: 1.0625rem;
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     letter-spacing: 0.12em;
     padding-top: 3px;
   }
@@ -225,7 +225,7 @@ export default {
     flex-direction: column;
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
   }
   .itn-content-img-wrapper {
   }
@@ -240,7 +240,7 @@ export default {
   .itn-content-category-link {
   }
   .itn-content-category-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 0.8125rem;
     letter-spacing: 1.4px;
   }
@@ -255,7 +255,7 @@ export default {
   .itn-content-link {
   }
   .itn-content-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.75rem;
     line-height: 1.875rem;
     letter-spacing: 0.01em;
@@ -280,15 +280,15 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: #ffffff;
+    background-color: $white;
   }
   .itn-title-flag {
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background: #333333;
-    color: #ffffff;
+    background: $third-color;
+    color: $white;
     height: 2em;
     width: 30%;
   }
@@ -296,7 +296,7 @@ export default {
     text-transform: uppercase;
     padding: 0 15px;
     font-size: 1.0625rem;
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     letter-spacing: 0.12em;
     padding-top: 3px;
   }
@@ -308,7 +308,7 @@ export default {
     flex-direction: row;
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
   }
   .itn-content-img-wrapper {
   }
@@ -324,7 +324,7 @@ export default {
   .itn-content-category-link {
   }
   .itn-content-category-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 0.8125rem;
     letter-spacing: 1.4px;
   }
@@ -339,7 +339,7 @@ export default {
   .itn-content-link {
   }
   .itn-content-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.75rem;
     line-height: 1.875rem;
     letter-spacing: 0.01em;

@@ -88,21 +88,21 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: #ffffff;
+    background-color: $white;
   }
   .tv-section-title-flag {
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background: #333333;
-    color: #ffffff;
+    background: $third-color;
+    color: $white;
     height: 2em;
   }
   .tv-section-title-text {
     padding: 0 15px;
     font-size: 1.0625rem;
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     letter-spacing: 0.12em;
     padding-top: 3px;
   }
@@ -127,7 +127,7 @@ export default {
   .tv-box-one-text-link {
   }
   .tv-box-one-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.275rem;
     line-height: 1.625rem;
   }
@@ -149,22 +149,22 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: #ffffff;
+    background-color: $white;
   }
   .tv-section-title-flag {
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background: #333333;
-    color: #ffffff;
+    background: $third-color;
+    color: $white;
     height: 2em;
     width: 30%;
   }
   .tv-section-title-text {
     padding: 0 15px;
     font-size: 1.0625rem;
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     letter-spacing: 0.12em;
     padding-top: 3px;
   }
@@ -190,7 +190,7 @@ export default {
     text-decoration: underline;
   }
   .tv-box-one-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.275rem;
     line-height: 1.625rem;
   }

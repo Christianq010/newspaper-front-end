@@ -75,7 +75,7 @@ export default {
   .ne-one-story-card-link {
   }
   .ne-one-story-card-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.875rem;
     line-height: 2rem;
   }
@@ -104,7 +104,7 @@ export default {
     text-decoration: underline;
   }
   .ne-one-story-card-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.275rem;
     line-height: 1.625rem;
   }

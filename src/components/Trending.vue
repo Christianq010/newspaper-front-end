@@ -119,7 +119,7 @@ export default {
   .ts-title-text-box {
   }
   .ts-title-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.0625rem;
     font-style: italic;
   }
@@ -128,14 +128,14 @@ export default {
   }
   .ts-title-line {
     height: 3px;
-    background: #000000;
+    background: $black;
   }
   .ts-card-wrapper {
   }
   .ts-card {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
     padding: 1em 0;
   }
   .ts-card-details:hover {
@@ -176,7 +176,7 @@ export default {
   .ts-title-text-box {
   }
   .ts-title-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     font-size: 1.0625rem;
     font-style: italic;
   }
@@ -185,14 +185,14 @@ export default {
   }
   .ts-title-line {
     height: 3px;
-    background: #000000;
+    background: $black;
   }
   .ts-card-wrapper {
   }
   .ts-card {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.8px solid #b6b6b6;
+    border-bottom: 0.8px solid $border-bottom;
     padding: 1em 0;
   }
   .ts-card-details:hover {
