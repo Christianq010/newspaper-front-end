@@ -1,20 +1,11 @@
 <template>
   <div>
-    <!-- Our Home Page -->
-    <!-- <home-page /> -->
-    <article-page />
-    
+      <router-view></router-view>    
   </div>
 </template>
 
 <script>
-// import HomePage from "./View/HomePage";
-import ArticlePage from "./View/Article";
-
 export default {
-  components: {
-    ArticlePage
-  }
 };
 </script>
 
