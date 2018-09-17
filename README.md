@@ -36,6 +36,8 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 
 > Mobile & Tablet responsive designs have not been done yet.
 
+> For server side rendering, always return the `index.html` file so dynamic routing on Vue will work as intended (see HTMl5 history mode on vue docs).
+
 ### Integrations
 - Headless CMS for content publishing - https://www.storyblok.com/ 
 - Integrating (https://www.storyblok.com/tp/add-a-headless-CMS-to-vuejs-in-5-minutes)
@@ -50,6 +52,7 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 - Looping through json data in Vue - https://stackoverflow.com/questions/45565349/how-to-acces-external-json-file-objects-in-vue-js-app
 - Formatting JSON - https://stackoverflow.com/questions/15637429/how-to-escape-double-quotes-in-json
 - Importing Nested JSON - https://www.sencha.com/forum/showthread.php?257706-Nested-JSON-is-there-a-straightforward-example-guide-anywhere
+- HTML History mode - https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations
 
 ### Troubleshooting
 
