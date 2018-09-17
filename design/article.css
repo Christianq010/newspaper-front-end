@@ -100,7 +100,7 @@ body {
   /* ------------------------------ */
   /* Section One - Left */
   .sec-1-left {
-    grid-row: 8 / 14;
+    grid-row: 2 / 6;
     grid-column: 1 / -1;
   }
   .social-icons-content {
@@ -125,114 +125,144 @@ body {
   /* ------------------------------ */
   /* Section Two - Center */
   .sec-2-center {
-    grid-row: 14 / 16;
+    grid-row: 6 / 16;
     grid-column: 1 / -1;
   }
-  /* Huffing Post Zone Center */
-  .hp-z-center {
+  .main-article {
   }
-  .hp-z-center-box {
+  .main-article-box {
+    padding: 1em;
   }
-  .hp-z-center-img-wrapper {
+  .main-article-category-box {
+    margin: 1em 0;
   }
-  .hp-z-center-img {
-    max-width: 100%;
-  }
-  .hp-z-center-headline {
-    padding: 0.5em 1em;
-  }
-  .hp-z-center-link {
-  }
-  .hp-z-center-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
-    font-size: 2.375rem;
-    line-height: 2.375rem;
-    letter-spacing: 0.5px;
-  }
-  /* HP Zone Center Details */
-  .hp-z-center-details {
-    padding: 0.5em 1em;
-  }
-  .hp-z-center-des {
-    margin: 0.5em 0;
-  }
-  .hp-z-center-des-link {
-  }
-  .hp-z-center-des-text {
-    font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-  }
-  .hp-z-center-author {
-    margin: 0.8em 0;
-  }
-  .hp-z-center-author-link {
-  }
-  .hp-z-center-author-text {
-    color: #f83371;
-    font-size: 0.8125rem;
-    line-height: 0.9375rem;
-    font-weight: normal;
-  }
-
-  /* ------------------------------ */
-  /* Section Three - Right */
-  .sec-3-right {
-    grid-row: 16 / 18;
-    grid-column: 1 / -1;
-  }
-  /* Styling */
-  /* Latest News */
-  .ln-news-section {
-    padding: 0 0.5em;
-  }
-  .ln-title-box {
-    display: grid;
-    grid-template-columns: 3fr 6fr;
-    grid-template-rows: 2.5em;
-  }
-  .ln-title-flag {
-  }
-  .ln-title-text {
+  .main-article-category-link {}
+  .main-article-category-text {
     font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
     font-size: 1.0625rem;
     font-style: italic;
   }
-  .ln-title-line-box {
-    padding: 1.5em 0.5em;
+  .main-article-headline {
   }
-  .ln-title-line {
-    height: 3px;
-    background: #000000;
+  .main-article-link {
   }
-  /* LN news cards */
-  .ln-news-card-wrapper {
-    margin: 0 0 1em 0;
+  .main-article-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 2.25rem;
+    line-height: 2rem;
+    letter-spacing: 0.2px;
   }
-  .ln-news-card-details {
-    padding: 0.5em;
-    border-bottom: 0.8px solid #b6b6b6;
+  /* HP Zone Center Details */
+  .main-article-details {
   }
-  .ln-news-card-details:hover {
-    background-color: #f4fbf9;
-  }
-  .ln-news-card-text-wrapper {
+  .main-article-des {
     margin: 0.5em 0;
   }
-  .ln-news-card-link:hover {
-    text-decoration: underline;
+  .main-article-des-link {
   }
-  .ln-news-card-text {
-  }
-  .ln-news-card-time-text {
-    margin: 0 0 0.5em 0;
-  }
-  .ln-news-time-text {
+  .main-article-des-text {
+    color: #313131;
     font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    font-size: 0.8125rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .main-article-author {
+    margin: 0.8em 0;
+  }
+  .main-article-author-link {
+  }
+  .main-article-author-text {
+    color: #444444;
+    font-size: 0.875rem;
     line-height: 0.9375rem;
-    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  .main-article-timestamp-box {}
+  .main-article-timestamp {
     color: #757575;
+    font-size: 0.8125rem;
+    line-height: 1.375rem;
+  }
+  .main-article-img-wrapper {
+  }
+  .main-article-img {
+    max-width: 100%;
+  }
+  .main-article-img-cp-box {
+    border-bottom: 1px dotted #cccccc;
+  }
+  .main-article-img-cp {
+    font-size: 0.75rem;
+    margin-top: 7px;
+    padding-bottom: 8px;
+    line-height: 16px;
+    color: #666;
+  }
+  .main-article-content-box {}
+  .main-article-content {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-bottom: 1px dotted #cccccc;
+  }
+  .main-article-p {}
+  .main-article-quote-box {
+    padding: 1em 5em;
+  }
+  /* Quote box */
+  .main-article-quote {}
+  .main-article-quote-icn {}
+  .main-article-quote-content {}
+  .main-article-quote-text {
+    font-size: 1.875rem;
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+  }
+  .main-article-quote-author-box {
+  }
+  .main-article-quote-author {
+    font-size: 0.75rem;
+  }
+  /* Author box */
+  .main-article-author-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1em 0;
+  }
+  .ma-author-picture-box {
+    margin: 0 1em 0 0;
+  }
+  .ma-author-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid #cccccc;
+    line-height: 0;
+  }
+  .ma-author-details {}
+  .ma-author-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ma-author-title-text {
+    color: #444444;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    font-weight: bold;
+  }
+  .ma-author-social-icn {
+    display: flex;
+    margin: 0em 0.8em;
+  }
+  .ma-author-des {}
+  .ma-author-des-text {
+    color: #757575;
+    font-size: 0.8125rem;
+    line-height: 1.375rem;
   }
 
   /* ------------------------------ */
@@ -794,119 +824,148 @@ body {
   }
 
   /* ------------------------------- */
-  /* Section Two - Center */
+  /* Section Two - Main Article */
   .sec-2-center {
     grid-row: 2 / 15;
     grid-column: 3 / 13;
     /* height: 850px; */
   }
-  /* Huffing Post Zone Center */
-  .hp-z-center {
+  /* Main Article */
+  .main-article {
   }
-  .hp-z-center-box {
+  .main-article-box {
     padding: 1em;
   }
-  .hp-a-category-box {}
-  .hp-a-category-link {}
-  .hp-a-category-text {}
-  .hp-z-center-headline {
+  .main-article-category-box {
+    margin: 1em 0;
   }
-  .hp-z-center-link {
-  }
-  .hp-z-center-text {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
-    font-size: 2.375rem;
-    line-height: 2.375rem;
-    letter-spacing: 0.5px;
-  }
-  /* HP Zone Center Details */
-  .hp-z-center-details {
-  }
-  .hp-z-center-des {
-    margin: 0.5em 0;
-  }
-  .hp-z-center-des-link {
-  }
-  .hp-z-center-des-text {
-    font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-  }
-  .hp-z-center-author {
-    margin: 0.8em 0;
-  }
-  .hp-z-center-author-link {
-  }
-  .hp-z-center-author-text {
-    color: #f83371;
-    font-size: 0.8125rem;
-    line-height: 0.9375rem;
-    font-weight: normal;
-  }
-  .hp-z-center-img-wrapper {
-  }
-  .hp-z-center-img {
-    max-width: 100%;
-  }
-
-  /* ------------------------------- */
-  /* Section Three - Right */
-  .sec-3-right {
-    grid-row: 2 / 8;
-    grid-column: 13 / 14;
-    /* height: 550px; */
-  }
-  /* Latest News */
-  .ln-news-section {
-    padding: 0 0.5em;
-  }
-  .ln-title-box {
-    display: grid;
-    grid-template-columns: 3fr 6fr;
-    grid-template-rows: 2.5em;
-  }
-  .ln-title-flag {
-  }
-  .ln-title-text {
+  .main-article-category-link {}
+  .main-article-category-text {
     font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
     font-size: 1.0625rem;
     font-style: italic;
   }
-  .ln-title-line-box {
-    padding: 1.5em 0.5em;
+  .main-article-headline {
   }
-  .ln-title-line {
-    height: 3px;
-    background: #000000;
+  .main-article-link {
   }
-  /* LN news cards */
-  .ln-news-card-wrapper {
-    margin: 0 0 1em 0;
+  .main-article-text {
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.5px;
   }
-  .ln-news-card-details {
-    padding: 0.5em;
-    border-bottom: 0.8px solid #b6b6b6;
+  /* HP Zone Center Details */
+  .main-article-details {
   }
-  .ln-news-card-details:hover {
-    background-color: #f4fbf9;
-  }
-  .ln-news-card-text-wrapper {
+  .main-article-des {
     margin: 0.5em 0;
   }
-  .ln-news-card-link:hover {
-    text-decoration: underline;
+  .main-article-des-link {
   }
-  .ln-news-card-text {
-  }
-  .ln-news-card-time-text {
-    margin: 0 0 0.5em 0;
-  }
-  .ln-news-time-text {
+  .main-article-des-text {
+    color: #313131;
     font-family: "ProximaNovaLight", Arial, Geneva, sans-serif;
-    font-size: 0.8125rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .main-article-author {
+    margin: 0.8em 0;
+  }
+  .main-article-author-link {
+  }
+  .main-article-author-text {
+    color: #444444;
+    font-size: 0.875rem;
     line-height: 0.9375rem;
-    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  .main-article-timestamp-box {}
+  .main-article-timestamp {
     color: #757575;
+    font-size: 0.8125rem;
+    line-height: 1.375rem;
+  }
+  .main-article-img-wrapper {
+  }
+  .main-article-img {
+    max-width: 100%;
+  }
+  .main-article-img-cp-box {
+    border-bottom: 1px dotted #cccccc;
+  }
+  .main-article-img-cp {
+    font-size: 0.75rem;
+    margin-top: 7px;
+    padding-bottom: 8px;
+    line-height: 16px;
+    color: #666;
+  }
+  .main-article-content-box {}
+  .main-article-content {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-bottom: 1px dotted #cccccc;
+  }
+  .main-article-p {}
+  .main-article-quote-box {
+    padding: 1em 5em;
+  }
+  /* Quote box */
+  .main-article-quote {}
+  .main-article-quote-icn {}
+  .main-article-quote-content {}
+  .main-article-quote-text {
+    font-size: 1.875rem;
+    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+  }
+  .main-article-quote-author-box {
+  }
+  .main-article-quote-author {
+    font-size: 0.75rem;
+  }
+  /* Author box */
+  .main-article-author-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1em 0;
+  }
+  .ma-author-picture-box {
+    margin: 0 1em 0 0;
+  }
+  .ma-author-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid #cccccc;
+    line-height: 0;
+  }
+  .ma-author-details {}
+  .ma-author-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ma-author-title-text {
+    color: #444444;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    font-weight: bold;
+  }
+  .ma-author-social-icn {
+    display: flex;
+    margin: 0em 0.8em;
+  }
+  .ma-author-des {}
+  .ma-author-des-text {
+    color: #757575;
+    font-size: 0.8125rem;
+    line-height: 1.375rem;
   }
 
   /* ------------------------------- */
