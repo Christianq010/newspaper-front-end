@@ -2,14 +2,14 @@
     <!-- Main Section -->
     <!-- Main Content Wrapper with image-->
         <div class="main-content-wrapper" 
-            v-bind:style="{ 'background-image': 'url(' + image + ')' }">
+            v-bind:style="{ 'background-image': 'url(' + mainSection[0].img + ')' }">
             <!-- Overlay -->
             <div class="main-content-overlay">
                 <!-- Main Heading -->
                 <div class="main-content-h1-w">
                     <router-link to="/article" tag="div">
                       <div class="main-content-h1">
-                          {{dataObject.headline[0].title}}
+                          {{mainSection[0].title}}
                       </div>
                     </router-link>
                 </div>
@@ -22,15 +22,15 @@
 </template>
 
 <script>
-// image: "https://img.huffingtonpost.com/asset/5b99d9903d00004d00bc14b6.jpeg",
-// headline: "ALGAE MESS SWAMPS RICK SCOTT"
-import data from "./../data.json";
-
 export default {
   data: function() {
     return {
-      dataObject: data,
-      image: data.headline[0].poster
+      mainSection: [
+        {
+          img: "https://img.huffingtonpost.com/asset/5b99d9903d00004d00bc14b6.jpeg",
+          title: "ALGAE MESS SWAMPS RICK SCOTT"
+        }
+      ]
     };
   }
 };
