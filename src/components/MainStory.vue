@@ -60,7 +60,7 @@ export default {
     text-align: center;
   }
   .main-content-h1 {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     color: white;
     font-size: 3rem;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -101,7 +101,7 @@ export default {
     text-align: center;
   }
   .main-content-h1 {
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
+    font-family: $font-bold;
     color: white;
     font-size: 5.125rem;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
