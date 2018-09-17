@@ -107,7 +107,7 @@
                             <div class="main-article-quote">
                                 <!-- Quote Icon -->
                                 <div class="main-article-quote-icn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#3b5999" width="24" height="24" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                         <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"/>
                                     </svg>
                                 </div>
@@ -300,6 +300,9 @@ export default {
   .main-article-quote-box {
     padding: 1em 5em;
   }
+  .main-article-quote-box svg {
+      fill: $primary-color;
+  }
   /* Quote box */
   .main-article-quote {}
   .main-article-quote-icn {}
@@ -360,7 +363,7 @@ export default {
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
-      .sec-2-center {
+  .sec-2-center {
     grid-row: 2 / 15;
     grid-column: 3 / 13;
     /* height: 850px; */
@@ -445,6 +448,9 @@ export default {
   .main-article-p {}
   .main-article-quote-box {
     padding: 1em 5em;
+  }
+  .main-article-quote-box svg {
+      fill: $primary-color;
   }
   /* Quote box */
   .main-article-quote {}
