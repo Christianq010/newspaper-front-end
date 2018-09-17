@@ -103,61 +103,25 @@ body {
     grid-row: 8 / 14;
     grid-column: 1 / -1;
   }
-  .top-title-box {
-    padding: 1em;
-    background-color: #ffffff;
+  .social-icons-content {
+    display: none;
+    margin: 2.5em 0 0 0;
   }
-  .top-title-flag {
-    font-style: italic;
-    background: #f83371;
-    color: #ffffff;
+  .social-icons-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 2em;
   }
-  .top-title-flag h1 {
-    padding: 0 15px;
-    font-size: 1.0625rem;
-    font-family: "ProximaNovaBold", Arial, Geneva, sans-serif;
-    letter-spacing: 0.12em;
-    padding-top: 3px;
+  .social-icons-card {
+    border-radius: 50%;
+    box-shadow: 0px 9px 77px -15px rgba(0,0,0,0.95);
+    margin: 0.2em 0;
   }
-  .tp-main-card-img {
-    max-width: 96px;
-    height: 96px;
-    justify-content: flex-start;
+  .social-icons-card:hover {
+    cursor: pointer;
   }
-  .tp-main-card-details {
-    border-bottom: none;
-  }
-  .tp-main-card-link:hover {
-    text-decoration: underline;
-  }
-  .tp-main-card-text {
-    /* font-family: "ProximaNovaLight", Arial, Geneva, sans-serif; */
-    margin-bottom: 1em;
-  }
-  .tp-small-cards-wrapper {
-    padding: 0 0 0.5em 0;
-  }
-  .tp-small-card-img {
-    margin-bottom: 1em;
-  }
-  .tp-main-card,
-  .tp-small-card {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 0.8px solid #b6b6b6;
-    margin: 1em;
-  }
-  .tp-small-card-link:hover {
-    text-decoration: underline;
-  }
-  .tp-main-card-details,
-  .tp-small-card-details {
-    padding: 0 0.8em;
-  }
+
   /* ------------------------------ */
   /* Section Two - Center */
   .sec-2-center {
