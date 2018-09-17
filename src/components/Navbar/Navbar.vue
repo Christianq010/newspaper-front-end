@@ -15,7 +15,9 @@
             <!-- Our main Huff Post logo -->
             <div class="logo">
                 <a>
-                    <img src="./../../assets/img/HuffPostHero.svg">
+                  <router-link to="/">
+                      <img src="./../../assets/img/HuffPostHero.svg">
+                  </router-link>
                 </a>
             </div>
             <!-- /end of main logo -->
