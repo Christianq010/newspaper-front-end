@@ -7,9 +7,11 @@
             <div class="main-content-overlay">
                 <!-- Main Heading -->
                 <div class="main-content-h1-w">
-                    <div class="main-content-h1">
-                        {{dataObject.headline[0].title}}
-                    </div>
+                    <router-link to="/article" tag="div">
+                      <div class="main-content-h1">
+                          {{dataObject.headline[0].title}}
+                      </div>
+                    </router-link>
                 </div>
                 <!-- /end of Main heading -->
             </div>
