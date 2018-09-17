@@ -1,17 +1,19 @@
 <template>
   <div>
     <!-- Our Home Page -->
-    <home-page />
+    <!-- <home-page /> -->
+    <article-page />
     
   </div>
 </template>
 
 <script>
-import HomePage from "./View/HomePage"
+// import HomePage from "./View/HomePage";
+import ArticlePage from "./View/Article";
 
 export default {
   components: {
-    HomePage
+    ArticlePage
   }
 };
 </script>
