@@ -38,9 +38,16 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 
 > For server side rendering, always return the `index.html` file so dynamic routing on Vue will work as intended (see HTMl5 history mode on vue docs).
 
-### Integrations
+## Integrations (Headless API based CMS)
+
+### StoryBlock
 - Headless CMS for content publishing - https://www.storyblok.com/ 
 - Integrating (https://www.storyblok.com/tp/add-a-headless-CMS-to-vuejs-in-5-minutes)
+
+### Prismic
+- Why should you use a headless CMS - https://prismic.io/headless-cms-intro
+- Official Docs - https://prismic.io/docs
+- Integrating with Vue - https://prismic.io/docs/vuejs/getting-started/integrating-with-existing-project
 
 #### Resources
 
