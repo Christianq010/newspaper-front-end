@@ -1,124 +1,88 @@
-{
-    "headline": [
-        {
-            "title": "ALGAE MESS SWAMPS RICK SCOTT",
-            "description": "Brett Kavanaugh’s Confirmation Hearings Have Been Shrouded In Secrecy",
-            "author": "Paul Blumenthal",
-            "poster": "https://img.huffingtonpost.com/asset/5b99d9903d00004d00bc14b6.jpeg",
-            "id": "001"
-        },
-        {
-            "article": 
-                [
-                    "FORT MYERS, Fla. – At the dock where offshore fishing guide Larry Conley keeps his 28-footer is a whiteboard detailing Reel-Ality’s availability for the coming week.", 
-                    "The word \"OPEN\" is printed in blue letters beside each day, just as it has been since mid-August when the red tide algae bloom along the Gulf Coast and the blue-green algae flowing down the Caloosahatchee River drove away the rest of his bookings. Conley, at some point, stopped bothering refreshing the calendar with dates to match the days of the week.",
-                    "\"I even stopped writing them down,” sighed Conley as he sipped on a 24-ounce Heineken beneath a thatched hut near the marina office. “You get a phone call, and the first thing they want to know: What’s up with the red tide?”",
-                    "What’s up with it is that the bloom has killed millions of fish, sea turtles, dolphins and manatees, their carcasses washing up on beaches and adding the stench of decay to air already acrid from the toxins released by the algae. Tourism has plummeted, and while August and September are typically the slowest of the year, officials fear that visitors will continue to stay away this autumn and winter.",
-                    "\"It hurts everybody,\"he said.\"If I don’t make enough money to buy a new car, that dealership is going to sell one less car. It’s going to trickle down, because this is the land of vacation.\"",
-                    "Like millions of Floridians whose livelihoods are directly and indirectly tied to the state’s water quality, Conley is watching his income dry up just as the man he and many others believe is responsible for the environmental calamity is seeking a new political office: Gov. Rick Scott, who hopes to become Sen. Rick Scott.",
-                    "Will the algae disaster be enough to stop Scott, who won both his terms as governor with but the slimmest of margins?",
-                    "“I hope something does,” Conley said.",
-                    "Something may, but there are tens of millions, even a hundred million, reasons to believe that something may not: The piles of campaign dollars Scott has at his disposal to spread the message that ― despite his repeated weakening of environmental standards and enforcement programs ― the whole thing is actually the fault of the Democratic incumbent.",
-                    "“Washington politician Bill Nelson made a pledge 30 years ago to solve this problem,” a narrator says in one ad over an image of bright green water. “But Nelson’s a talker, not a doer.”",
-                    "While both Nelson and his Democratic Senate allies have responded with their own TV ads, Scott’s financial advantage and the bully pulpit that comes with the governor’s job means that, at least for now and with some number of voters, Scott’s message is working.",
-                    "At the opening day of applying for special Small Business Administration loans for red tide victims, one pest control franchise owner who declined to give his name said he blamed Scott and Nelson equally. “They both let it happen.”",
-                    "Ron James, the owner of Metalcraft Welding and Fabrication who hoped to get a $50,000 loan, called it a federal issue. Essentially repeating Scott’s message in its entirety, he said Nelson has had three decades to work on it. “Hopefully, this will wake them up and make them do something,” he said of Congress.'"
-                ]
-        }
-    ],
-    "topstories": [
-        {
-            "topstorytitle": [
-                {
-                "title": "Homosexuality Is No Longer A Crime, India Supreme Court Rules",
-                "img": "https://img.huffingtonpost.com/asset/5b90c97e190000930a5037dd.jpeg?cache=uomucfvpjh&ops=432_243,quality_75",
-                "type": "card-header",
-                "id": "001"
-                }
-            ]
-        },
-        {
-            "topstorycards": [
-                {
-                    "title": "WHO: After Ebola Death In Urban Area, ‘No One Should Be Sleeping Well Tonight’",
-                    "type": "card",
-                    "img": "https://img.huffingtonpost.com/asset/5b907348190000930a5037b4.jpeg?cache=j9fm3vzlob&ops=96_96,quality_75",
-                    "id": "003"
-                },
-                {
-                    "title": "Trump Speculates About His Impeachment: ‘If It Does Happen, It’s Your Fault’",
-                    "type": "card",
-                    "img": "https://img.huffingtonpost.com/asset/5b99b72a3d00004e00bc14a2.jpeg?cache=jhbbcsajou&ops=96_96,quality_75",
-                    "id": "004"
-                },
-                {
-                    "title": "Fox News Analyst Goes Off-Script: Trump Lacks ‘The Temperament’ To Be President",
-                    "type": "card",
-                    "img": "https://img.huffingtonpost.com/asset/5b99f27e3d00004e00bc14cb.jpeg?cache=9qcn4dvblv&ops=96_96,quality_75",
-                    "id": "005"
-                },
-                {
-                    "title": "Trump Criticizes Sean Hannity At Rally Like A Best Bud Would",
-                    "type": "card",
-                    "img": "https://img.huffingtonpost.com/asset/5b99ab1124000033009008f9.jpeg?cache=n7skwfl2ty&ops=96_96,quality_75",
-                    "id": "006"
-                },
-                {
-                    "title": "Family Who Survived Vegas Attack Says Their Comfort Dog Has Been Shot, Killed",
-                    "type": "card",
-                    "img": "https://img.huffingtonpost.com/asset/5b9a01813d00002d00bc14d9.jpeg?cache=g1hg0dgf5h&ops=96_96,quality_75",
-                    "id": "007"
-                }
-            ]
-        }
-    ],
-    "zonecenter":[
-        {
-            "title": "TRUMP RAGES! TURN THE OP-ED WRITER IN!",
-            "img": "https://img.huffingtonpost.com/asset/5b908c48200000430034c0b8.jpeg?cache=ypobmtpvrf&ops=936_526,prog,quality_75",
-            "description": "Trump Calls Anonymous Writer Of New York Times ‘Resistance’ Piece ‘Gutless’",
-            "author": "Doha Madani",
-            "id": "01"
-        },
-        {
-            "title": "WHY CAN’T KAVANAUGH ANSWER THIS SENATOR’S QUESTION?",
-            "img": "https://img.huffingtonpost.com/asset/5b90cf5719000014035037de.jpeg?cache=ftxbdqziw4&ops=936_526,prog,quality_75",
-            "description": "Kamala Harris Grilled Kavanaugh About His Discussions Of The Russia Probe",
-            "author": "Nick Visser",
-            "id": "02"
-        }
-    ],
-    "latestnews": [
-        {
-            "title": "The Funniest Tweets From Parents This Week (Sept. 1-7)",
-            "time": "18 minutes ago",
-            "id": ""
-        },
-        {
-            "title": "'Grey’s Anatomy’ Casts Its First Gay Male Surgeon Character",
-            "time": "33 minutes ago",
-            "id": ""
-        },
-        {
-            "title": "More Than 400 Kids Separated From Parents At The Border Are Still In Government Custody",
-            "time": "40 minutes ago",
-            "id": ""
-        },
-        {
-            "title": "‘If We Think In Our Native Language, Then Most Dogs Would Be Thinking In Barks’",
-            "time": "44 minutes ago",
-            "id": ""
-        },
-        {
-            "title": "Read More Updates From Brett Kavanaugh’s Confirmation Hearing",
-            "time": "1 hour ago",
-            "id": ""
-        },
-        {
-            "title": "Ryan Reynolds Started A Twitter Beef With Paddington Bear And All Hell Broke Loose",
-            "time": "3 hours ago",
-            "id": ""
-        }
-    ]
 
-}
+ {
+    "Main": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Title",
+          "placeholder": "Blog post title..."
+        }
+      },
+      "release_date": {
+        "type": "Date",
+        "config": {
+          "label": "Release Date"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "choices": {
+            "text": {
+              "type": "Slice",
+              "fieldset": "Text",
+              "description": "A rich text section",
+              "icon": "text_fields",
+              "non-repeat": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, list-item, o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text",
+                    "placeholder": "Enter your text..."
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "quote": {
+              "type": "Slice",
+              "fieldset": "Quote",
+              "description": "A featured quote",
+              "icon": "format_quote",
+              "non-repeat": {
+                "quote": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph, strong, em",
+                    "label": "quote",
+                    "placeholder": "Enter quote..."
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "image": {
+              "type": "Slice",
+              "fieldset": "Image",
+              "description": "An image with optional caption",
+              "icon": "image",
+              "non-repeat": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Image"
+                  }
+                },
+                "caption": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph, strong, em, hyperlink",
+                    "allowTargetBlank": true,
+                    "label": "Caption",
+                    "placeholder": "Optional image caption..."
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    }
+  }
