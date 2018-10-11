@@ -60,12 +60,14 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 - Vue Awesome Icons - https://github.com/Justineo/vue-awesome
 - Font-Awesome icon gallery - https://fontawesome.com/icons?d=gallery
 - Vue directory structure - https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb
+- Install SASS guide - https://medium.com/@mahesh.ks/using-sass-scss-in-vue-js-2-d472af0facf9
 - SASS Architecture - https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
 - Burger Menu - https://github.com/mbj36/vue-burger-menu
 - Looping through json data in Vue - https://stackoverflow.com/questions/45565349/how-to-acces-external-json-file-objects-in-vue-js-app
 - Formatting JSON - https://stackoverflow.com/questions/15637429/how-to-escape-double-quotes-in-json
 - Importing Nested JSON - https://www.sencha.com/forum/showthread.php?257706-Nested-JSON-is-there-a-straightforward-example-guide-anywhere
 - HTML History mode - https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations
+- Passing props to components - https://www.youtube.com/watch?v=9qqFH60isFc
 
 ### Troubleshooting
 
