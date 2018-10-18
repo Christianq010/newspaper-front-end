@@ -1,6 +1,6 @@
-# The Free Market Economic Syndicate Vue App
+# The Huffingtonpost Vue App
 
-This project is the Front-End of the Free Market Syndicate newspaper (09/2018) built with [Vue JS](https://vuejs.org/).
+This project is a front-end app of the Huffingtonpost website (09/2018) built with [Vue JS](https://vuejs.org/).
 
 ## Usage
 
@@ -34,7 +34,7 @@ For a detailed explanation on how things work, consult the [docs for vue-loader]
 
 ### Note
 
-> Mobile & Tablet responsive designs have not been done yet.
+> Tablet design has not been done yet.
 
 > For server side rendering, always return the `index.html` file so dynamic routing on Vue will work as intended (see HTMl5 history mode on vue docs).
 
