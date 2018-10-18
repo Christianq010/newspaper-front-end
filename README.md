@@ -2,6 +2,8 @@
 
 This project is a front-end app of the Huffingtonpost website (09/2018) built with [Vue JS](https://vuejs.org/).
 
+Read my medium article describing how I built the app [here](https://medium.com/@christianq010/how-to-design-a-news-website-with-vue-js-d0e6bba89ef0)
+
 ## Usage
 
 > A Vue.js project, built with the Vue CLI.
