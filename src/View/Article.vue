@@ -1,10 +1,8 @@
 <template>
     <div id="app">
         <navbar />
-
         <social-share-col />
         <main-article />
-
         <news-big />
         <news-card-one />
         <news-card-two />
@@ -50,7 +48,7 @@ name: "app",
 }
 </script>
 
-<style>
+<style scoped>
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Our  Main Container */
