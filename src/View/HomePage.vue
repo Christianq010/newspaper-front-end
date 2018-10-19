@@ -17,6 +17,7 @@
 </template>
 
 <script>
+// Navigation Bar
 import Navbar from "./../components/Navbar/Navbar";
 import MainStory from "./../components/MainStory";
 import TopStories from "./../components/Topstories";
@@ -29,6 +30,7 @@ import OpinionColumn from "./../components/Opinion";
 import TopVideos from "./../components/TopVideos";
 import TrendingColumn from "./../components/Trending";
 import InTheNews from "./../components/InTheNews";
+// Footer Section
 import FooterSection from "./../components/Footer";
 
 export default {
@@ -51,7 +53,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Our  Main Container */
