@@ -69,7 +69,7 @@ export default {
     display: grid;
     grid-gap: 0;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 25%;
+    grid-auto-rows: auto;
     grid-auto-flow: dense;
   }
 }
